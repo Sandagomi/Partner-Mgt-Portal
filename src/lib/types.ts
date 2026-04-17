@@ -17,6 +17,7 @@ export interface Brand {
   location: string;
   address: string;
   contact: string;
+  agent?: string;
   createdAt: string;
   updatedAt: string;
 }

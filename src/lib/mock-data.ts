@@ -10,10 +10,10 @@ export const initialPartners: Partner[] = [
 ];
 
 export const initialBrands: Brand[] = [
-  { id: "b1", partnerId: "p1", name: "The Grand Hotel", location: "Manhattan, NY", address: "100 Park Avenue, New York", contact: "+1 212-555-0110", createdAt: daysAgo(28), updatedAt: daysAgo(3) },
-  { id: "b2", partnerId: "p1", name: "Grand Bistro", location: "Brooklyn, NY", address: "45 Court Street, Brooklyn", contact: "+1 718-555-0120", createdAt: daysAgo(20), updatedAt: daysAgo(4) },
+  { id: "b1", partnerId: "p1", name: "The Grand Hotel", location: "Manhattan, NY", address: "100 Park Avenue, New York", contact: "+1 212-555-0110", agent: "Agent Alpha", createdAt: daysAgo(28), updatedAt: daysAgo(3) },
+  { id: "b2", partnerId: "p1", name: "Grand Bistro", location: "Brooklyn, NY", address: "45 Court Street, Brooklyn", contact: "+1 718-555-0120", agent: "Agent Beta", createdAt: daysAgo(20), updatedAt: daysAgo(4) },
   { id: "b3", partnerId: "p2", name: "Pacific Suites", location: "Waikiki, HI", address: "2501 Kalakaua Ave, Honolulu", contact: "+1 808-555-0210", createdAt: daysAgo(22), updatedAt: daysAgo(6) },
-  { id: "b4", partnerId: "p3", name: "Alpine Chalet", location: "Zermatt, CH", address: "Kirchstrasse 10, Zermatt", contact: "+41 27 555 0310", createdAt: daysAgo(12), updatedAt: daysAgo(2) },
+  { id: "b4", partnerId: "p3", name: "Alpine Chalet", location: "Zermatt, CH", address: "Kirchstrasse 10, Zermatt", contact: "+41 27 555 0310", agent: "Agent Gamma", createdAt: daysAgo(12), updatedAt: daysAgo(2) },
 ];
 
 export const initialSubBrands: SubBrand[] = [
